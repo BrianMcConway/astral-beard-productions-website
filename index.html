@@ -1,63 +1,163 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Astral Beard Productions</title>
-    <meta name="description" content="Astral Beard Productions portfolio website." />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
+    <meta name="description"
+        content="Full Stack Web Developer with E commerce and SEO specialisation. Structured, scalable web systems for retail and catalogue businesses.">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+
+    <!-- Header -->
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="/">Astral Beard Productions</a>
-        <nav class="nav" aria-label="Primary">
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+        <div class="container">
+            <a class="brand" href="/">Astral Beard Productions</a>
+            <nav class="nav" aria-label="Primary">
+                <a href="#work">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container">
-          <h1>Design and web development</h1>
-          <p>Portfolio site in progress.</p>
-        </div>
-      </section>
 
-      <section id="work" class="section">
-        <div class="container">
-          <h2>Work</h2>
-          <p>Add projects here.</p>
-        </div>
-      </section>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-inner">
 
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About</h2>
-          <p>Add a short professional bio here.</p>
-        </div>
-      </section>
+                <div class="hero-logo-wrap">
+                    <img src="assets/images/astral-beard-productions-hero-image-transparent-background.png"
+                        alt="Astral Beard Productions logo" class="hero-logo">
+                </div>
 
-      <section id="contact" class="section">
-        <div class="container">
-          <h2>Contact</h2>
-          <p>
-            Email:
-            <a href="mailto:hello@example.com">brianmcconway@yahoo.co.uk</a>
-          </p>
-        </div>
-      </section>
+                <h1>Full Stack Web Developer</h1>
+
+                <p class="hero-sub">
+                    E commerce systems, structured data, and technical SEO.
+                </p>
+
+                <p class="hero-description">
+                    I design and build scalable, production ready web systems for retail
+                    and catalogue based businesses with a focus on performance,
+                    search visibility, and long term maintainability.
+                </p>
+
+                <p>
+                    <a class="cta" href="#work">View Selected Projects</a>
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section id="work" class="section">
+            <div class="container">
+
+                <h2>Selected Projects</h2>
+
+                <div class="project">
+                    <h3>Django Agricultural Machinery Catalogue</h3>
+                    <p>
+                        Custom built Django based catalogue platform with structured
+                        product models, category architecture, image management,
+                        and scalable content workflows.
+                    </p>
+                    <p>
+                        <strong>Technologies:</strong>
+                        Django, Python, PostgreSQL, Bootstrap
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>E commerce SEO System Implementation</h3>
+                    <p>
+                        Structured product publishing system with enforced SEO standards,
+                        schema integration, and Google Merchant compatibility.
+                    </p>
+                    <p>
+                        <strong>Technologies:</strong>
+                        Shopify, Structured Data, Technical SEO
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Core Expertise</h2>
+                <ul class="skills-list">
+                    <li>Full Stack Web Development</li>
+                    <li>Django and Python</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>E commerce Architecture</li>
+                    <li>Technical SEO and Structured Data</li>
+                    <li>WordPress and WooCommerce</li>
+                    <li>Git and Deployment Workflows</li>
+                    <li>Creative Digital Production</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <p>
+                    I build production ready web systems for businesses that rely on
+                    structured data, scalable architecture, and search visibility.
+                    My work spans backend development, frontend implementation,
+                    e commerce optimisation, and digital production.
+                </p>
+                <p>
+                    My background also includes professional culinary training and
+                    creative media production, disciplines that inform my structured,
+                    systems driven approach to building and shipping work.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>
+                    Email:
+                    <a href="mailto:brianmcconway@yahoo.co.uk">
+                        brianmcconway@yahoo.co.uk
+                    </a>
+                </p>
+                <p>
+                    GitHub:
+                    <a href="https://github.com/BrianMcConway" target="_blank" rel="noopener noreferrer">
+                        github.com/BrianMcConway
+                    </a>
+                </p>
+            </div>
+        </section>
+
     </main>
 
+    <!-- Footer -->
     <footer class="site-footer">
-      <div class="container">
-        <small>&copy; <span id="year"></span> Astral Beard Productions</small>
-      </div>
+        <div class="container">
+            <small>&copy; <span id="year"></span> Astral Beard Productions</small>
+        </div>
     </footer>
 
     <script src="assets/js/script.js" defer></script>
-  </body>
+
+</body>
+
 </html>
